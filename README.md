@@ -13,7 +13,7 @@ This is a signature generator for e-mail and general usage.
 # Warning
 Recommended usage is self-use. Because there are some vulnerabilities on this code, you shouldn't embed this code to a web server but if you prevent the vulnerabilities in this code, there is no problem to embed this code to a web server. If you do that, remember to fork this repository :)
 
-# Authors
+# Developed by
 https://github.com/muhammedikbalyildiz1
 
 https://github.com/MHDKO
