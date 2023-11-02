@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singature Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6106e3d0d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="form-container">
+        <form id="infoForm">
+            <div class="form-left">
+                <label for="name">Name-Surname:</label>
+                <input type="text" id="name" required><br><br>
+
+                <label for="position">Position:</label>
+                <input type="text" id="position" required><br><br>
+
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" required><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" required><br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required><br><br>
+
+                <label for="address">Company Address:</label>
+                <textarea id="address" rows="4" required></textarea><br><br>
+
+                <label for="logo">Logo Link:</label>
+                <input type="logo" id="logo" required><br><br>
+            </div>
+            
+            
+            
+            <div class="clearfix"></div>
+            
+            <input type="button" value="Generate" id="submitBtn">
+        </form>
+    </div>
+
+    <div id="output-container">
+        <div class="image">
+            <img id="resultLogo" src="" width="200" height="200" alt=" ">
+        </div>
+        <div class="user-info">
+            <h4><span id="resultName"></span></h4>     
+            <h4><span id="resultPosition"></span></h4>
+            <h4><span id="resultCompany"></span></h4>
+
+            <div class="contact-info">
+                <h4><span id="resultPhone"></span></h4>
+                <h4><span id="resultEmail"></span></h4>
+            </div>
+
+             <h4><span id="resultAddress"></span></h4>
+
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>

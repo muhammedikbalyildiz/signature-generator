@@ -1,0 +1,67 @@
+  body {
+    font-family: 'AvenirNextLTPro', Arial, sans-serif;
+  }
+
+  .form-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .form-left {
+    float: left;
+    width: 60%;
+  }
+
+  .clearfix {
+    clear: both;
+  }
+
+
+  #output-container {
+    display: flex;
+  }
+
+  .image {
+      max-width: 50%;
+      position: relative;
+      top: 30px;
+    }
+
+  .user-info {
+    flex: 1;
+    padding: 20px;
+    line-height: 1.0;
+  }
+
+  #resultName {
+    font-weight: bold;
+  }
+
+  #resultPosition {
+    color: gray;
+    font-style: italic;
+  }
+
+  #resultCompany {
+    color: red;
+  }
+
+  #resultPhone {
+    color: blue;
+    text-decoration: underline;
+  }
+
+  #resultEmail {
+    color: green;
+    text-decoration: underline;
+  }
+
+  #resultAddress {
+    color: blueviolet;
+    text-decoration: underline;
+  }
+
+  #output-container .contact-info h4 {
+    display: inline;
+    margin-right: 20px;
+  }
